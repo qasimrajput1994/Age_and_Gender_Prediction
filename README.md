@@ -7,6 +7,10 @@ https://huggingface.co/spaces/mqasim686422/Prediction_Age_and_Gender/tree/main
 
 # Demo
 https://huggingface.co/spaces/mqasim686422/Prediction_Age_and_Gender
+
+# Running the Project
+git clone https://github.com/qasimrajput1994/Age_and_Gender_Prediction.git
+
 # Features
 **Dual Prediction Outputs:** Predicts both age (regression) and gender (classification) from input images.
 
@@ -57,6 +61,7 @@ matplotlib
 
 # Running the Project
 git clone https://github.com/qasimrajput1994/Age_and_Gender_Prediction.git
+
 
 # Files in the Repository
 **app.py** : Contains the code for deploying the Gradio web interface. The script loads the pre-trained model, preprocesses the input image, and provides age and gender predictions.
