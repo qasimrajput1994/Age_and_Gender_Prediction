@@ -40,8 +40,11 @@ matplotlib
 *The dataset contains labeled images with age, gender, and race information. The model focuses on predicting age and gender from the provided images.*
 # Acknowledgements
 *TensorFlow/Keras:* For providing the deep learning framework.
+
 *Gradio:* For the intuitive interface library.
+
 *Hugging Face:* For hosting the application on Spaces.
+
 # Running the Project
 git clone https://github.com/qasimrajput1994/Age_and_Gender_Prediction.git
 
@@ -49,5 +52,7 @@ git clone https://github.com/qasimrajput1994/Age_and_Gender_Prediction.git
 **app.py** Contains the code for deploying the Gradio web interface. The script loads the pre-trained model, preprocesses the input image, and provides age and gender predictions.
 
 **modelAP.keras** The pre-trained model saved in Keras format. This is used for inference on uploaded images.
+
 **Age_Gender_Prediction** Complete code file. 
+
 **requirements.txt** This file contains all the dependencies needed to run the project. It includes libraries such as TensorFlow, Keras, Gradio, and other required packages.
